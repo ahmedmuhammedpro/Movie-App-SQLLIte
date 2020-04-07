@@ -1,0 +1,6 @@
+framework module Pods_Movie_App_SQLLIte {
+  umbrella header "Pods-Movie App SQLLIte-umbrella.h"
+
+  export *
+  module * { export * }
+}

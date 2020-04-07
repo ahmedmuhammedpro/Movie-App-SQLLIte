@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748120EE5BC3623C00776C4E /* Pods_Movie_App_SQLLIte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC4DDDEB9E24C2B6F23BB44 /* Pods_Movie_App_SQLLIte.framework */; };
 		C81F36FB24339DFC003491A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81F36FA24339DFC003491A6 /* AppDelegate.swift */; };
 		C81F36FD24339DFC003491A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81F36FC24339DFC003491A6 /* SceneDelegate.swift */; };
 		C81F36FF24339DFC003491A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81F36FE24339DFC003491A6 /* ViewController.swift */; };
 		C81F370224339DFC003491A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81F370024339DFC003491A6 /* Main.storyboard */; };
 		C81F370424339E14003491A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C81F370324339E14003491A6 /* Assets.xcassets */; };
 		C81F370724339E14003491A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81F370524339E14003491A6 /* LaunchScreen.storyboard */; };
+		C847696324394B6F00852F5F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847696224394B6F00852F5F /* TableViewCell.swift */; };
+		C847696524394C9700852F5F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847696424394C9700852F5F /* Movie.swift */; };
+		C84769672439622E00852F5F /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84769662439622E00852F5F /* Repository.swift */; };
+		C847696924396A0C00852F5F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847696824396A0C00852F5F /* AddViewController.swift */; };
+		C847696B24396DED00852F5F /* AddProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847696A24396DED00852F5F /* AddProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1203D483CF05A399A278BED6 /* Pods-Movie App SQLLIte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie App SQLLIte.debug.xcconfig"; path = "Target Support Files/Pods-Movie App SQLLIte/Pods-Movie App SQLLIte.debug.xcconfig"; sourceTree = "<group>"; };
+		51DDB5BB2A588E41012FD80E /* Pods-Movie App SQLLIte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie App SQLLIte.release.xcconfig"; path = "Target Support Files/Pods-Movie App SQLLIte/Pods-Movie App SQLLIte.release.xcconfig"; sourceTree = "<group>"; };
 		C81F36F724339DFC003491A6 /* Movie App SQLLIte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie App SQLLIte.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81F36FA24339DFC003491A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C81F36FC24339DFC003491A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		C81F370324339E14003491A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C81F370624339E14003491A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C81F370824339E14003491A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C847696224394B6F00852F5F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C847696424394C9700852F5F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C84769662439622E00852F5F /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		C847696824396A0C00852F5F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		C847696A24396DED00852F5F /* AddProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProtocol.swift; sourceTree = "<group>"; };
+		FDC4DDDEB9E24C2B6F23BB44 /* Pods_Movie_App_SQLLIte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_App_SQLLIte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748120EE5BC3623C00776C4E /* Pods_Movie_App_SQLLIte.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98DE93715CF02E16F87A1A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1203D483CF05A399A278BED6 /* Pods-Movie App SQLLIte.debug.xcconfig */,
+				51DDB5BB2A588E41012FD80E /* Pods-Movie App SQLLIte.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFC33847EB7460A8EFECF67A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC4DDDEB9E24C2B6F23BB44 /* Pods_Movie_App_SQLLIte.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C81F36EE24339DFC003491A6 = {
 			isa = PBXGroup;
 			children = (
 				C81F36F924339DFC003491A6 /* Movie App SQLLIte */,
 				C81F36F824339DFC003491A6 /* Products */,
+				98DE93715CF02E16F87A1A82 /* Pods */,
+				BFC33847EB7460A8EFECF67A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +94,11 @@
 				C81F36FA24339DFC003491A6 /* AppDelegate.swift */,
 				C81F36FC24339DFC003491A6 /* SceneDelegate.swift */,
 				C81F36FE24339DFC003491A6 /* ViewController.swift */,
+				C847696824396A0C00852F5F /* AddViewController.swift */,
+				C847696224394B6F00852F5F /* TableViewCell.swift */,
+				C847696A24396DED00852F5F /* AddProtocol.swift */,
+				C84769662439622E00852F5F /* Repository.swift */,
+				C847696424394C9700852F5F /* Movie.swift */,
 				C81F370024339DFC003491A6 /* Main.storyboard */,
 				C81F370324339E14003491A6 /* Assets.xcassets */,
 				C81F370524339E14003491A6 /* LaunchScreen.storyboard */,
@@ -74,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C81F370B24339E14003491A6 /* Build configuration list for PBXNativeTarget "Movie App SQLLIte" */;
 			buildPhases = (
+				9F6108CF88C92138C56C75DB /* [CP] Check Pods Manifest.lock */,
 				C81F36F324339DFC003491A6 /* Sources */,
 				C81F36F424339DFC003491A6 /* Frameworks */,
 				C81F36F524339DFC003491A6 /* Resources */,
+				58C854F0A3F4713E5B46820E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +175,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58C854F0A3F4713E5B46820E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movie App SQLLIte/Pods-Movie App SQLLIte-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Movie App SQLLIte/Pods-Movie App SQLLIte-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Movie App SQLLIte/Pods-Movie App SQLLIte-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6108CF88C92138C56C75DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Movie App SQLLIte-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C81F36F324339DFC003491A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C81F36FF24339DFC003491A6 /* ViewController.swift in Sources */,
+				C847696324394B6F00852F5F /* TableViewCell.swift in Sources */,
+				C847696924396A0C00852F5F /* AddViewController.swift in Sources */,
 				C81F36FB24339DFC003491A6 /* AppDelegate.swift in Sources */,
 				C81F36FD24339DFC003491A6 /* SceneDelegate.swift in Sources */,
+				C847696524394C9700852F5F /* Movie.swift in Sources */,
+				C84769672439622E00852F5F /* Repository.swift in Sources */,
+				C847696B24396DED00852F5F /* AddProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +371,7 @@
 		};
 		C81F370C24339E14003491A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1203D483CF05A399A278BED6 /* Pods-Movie App SQLLIte.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +389,7 @@
 		};
 		C81F370D24339E14003491A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DDB5BB2A588E41012FD80E /* Pods-Movie App SQLLIte.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
